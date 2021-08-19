@@ -1,7 +1,7 @@
 CREATE DATABASE rh;
 USE rh;
 CREATE TABLE tb_colaboradores(
-	matricula INT NOT NULL AUTO_INCREMENT,
+    matricula INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR (50),
     sexo VARCHAR (20),
     nascimento DATE,
